@@ -40,7 +40,7 @@ $ php artisan migrate
 $ php artisan db:seed
 ````
 
-7. To send and receive email, adjust your **.env** mail settings below
+7. To send email, adjust your **.env** mail settings below
 ```php
 MAIL_MAILER=smtp
 MAIL_HOST=mailhog
