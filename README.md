@@ -1,4 +1,4 @@
-#Laravel 9 AdminLTE 3 - Admin Dashboard Template with CRUD
+# Laravel 9 AdminLTE 3 - Admin Dashboard Template with CRUD
 
 <span style="color:blue;">**Versions**</span>
 - Laravel v9.19.0 
@@ -16,23 +16,42 @@
 Clone the project
 
 2. Add Database Configuration
-Rename the ***.env.example*** file to*** .env***
-2. Create your database and user. Enter details on the .env details below
+Rename the ***.env.example*** file to ***.env***
+
+3. Install Dependencies
+````sh
+$ composer install
+````
+
+4. Create your database and user. Enter details on the .env details below
 ```php
 DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-2. Run Migration
+
+5. Run Migration
 ````sh
 $ php artisan migrate
 ````
 
-2. Run Seeds
+6. Run Seeds
 ````sh
 $ php artisan db:seed
 ````
-2. Run Server
+
+7. To send and receive email, adjust your **.env** mail settings below
+```php
+MAIL_MAILER=smtp
+MAIL_HOST=mailhog
+MAIL_PORT=1025
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS="hello@example.com"
+```
+
+8. Run Server
 ````sh
 $ php artisan serve
 ````
@@ -43,14 +62,5 @@ Your application will be ready to use
 ***Email: user@gmail.com
 Password: 12345***
 
-To Change password, adjust your **.env** mail settings below
-
-`MAIL_MAILER=smtp`
-`MAIL_HOST=mailhog`
-`MAIL_PORT=1025`
-`MAIL_USERNAME=null`
-`MAIL_PASSWORD=null`
-`MAIL_ENCRYPTION=null`
-`MAIL_FROM_ADDRESS="hello@example.com"`
 
 For Support Contact via tonkigs@gmail.com
