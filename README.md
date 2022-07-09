@@ -14,8 +14,10 @@
 **Posts CRUD** - Posts can be created, read, updated, deleted, published or unpublished using this installation. Posts include a post name, content and an image.
 
 ##### Installation
-1. Install 
-Clone the project
+1. Clone this repository
+````sh
+gh repo clone kiguta/Laravel9AdminLTE_adminTemplate
+````
 
 2. Add Database Configuration
 Rename the ***.env.example*** file to ***.env***
