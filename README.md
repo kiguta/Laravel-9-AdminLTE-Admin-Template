@@ -9,6 +9,8 @@
 
 ## Features
 **Admin LTE** - AdminLTE is a fully responsive administration template. Based on Bootstrap 4.6 framework and also the JS/jQuery plugin. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops.
+
+
 **Posts CRUD** - Posts can be created, read, updated, deleted, published or unpublished using this installation. Posts include a post name, content and an image.
 
 ##### Installation
