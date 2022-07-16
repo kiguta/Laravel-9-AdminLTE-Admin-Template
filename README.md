@@ -65,6 +65,3 @@ Your application will be ready to use
 **User**
 ***Email: user@gmail.com
 Password: 12345***
-
-
-For Support Contact via tonkigs@gmail.com
